@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -u code/d5_ice_volume.py)",
+      "Bash(echo \"D5 exit $?\")",
+      "Bash(find pass5 *)",
+      "Bash(find \"pass 5\" -maxdepth 4 -type d)",
+      "Bash(find \"pass 5\" -name \"*g_sli*csv\" -o -name \"*g_sri*csv\")",
+      "Bash(find \"pass 5\" -name \"*sli_xx_fp_hh*\" -o -name \"*sri_ma*\" -o -name \"*sli_xx_fp_xx*xml\")",
+      "Bash(python -u -c ' *)",
+      "Bash(python -u code/d2_pass6.py)",
+      "Bash(python -u code/d2_twopass.py)",
+      "Bash(echo \"exit $?\")",
+      "Bash(python -u code/d3_landing.py)",
+      "Bash(until grep *)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\HP\\AppData\\Local\\Temp\\claude\\d--BAH-26\\0db158ab-fb3e-40b8-a46e-9670cfc1c3b2\\tasks"
+    ]
+  }
+}
